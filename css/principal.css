@@ -1,0 +1,418 @@
+#fondoPagina {
+  background: #ebd5e2;
+  background: radial-gradient(circle, #ebd5e2 0%, #edc7dd 38%, #ecbcf7 100%);
+}
+
+.header__navBar .header__logo {
+  text-align: -webkit-center;
+}
+
+.header__navBar .header__logo .logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+}
+
+.header__navBar .header__logo h1.titulo {
+  margin: 30px;
+  color: #f05651;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+.header__navBar .header__logo .titulo {
+  border-radius: 50px;
+}
+
+.header__navBar .header__logo h2.subTitulo {
+  color: #f05651;
+  font-size: 15px;
+  margin: 40px;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+.header__navBar .navbar-light .navbar-nav .show > .nav-link, .header__navBar .navbar-light .navbar-nav .nav-link.active {
+  color: #5a0b7e;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 20px;
+}
+
+.header__navBar .nav-tabs .nav-item.show .nav-link, .header__navBar .nav-tabs .nav-link.active {
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: 10px;
+}
+
+.header__navBar .navbar-light .navbar-brand {
+  color: #5a0b7e;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 20px;
+}
+
+.header__navBar .navbar-light .navbar-nav .nav-link {
+  color: #5a0b7e;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 20px;
+}
+
+.header__navBar .nav-tabs {
+  border-bottom: none;
+}
+
+.header__navBar .collapse.navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header__navBar ul.nav.nav-tabs {
+  display: inline-block;
+}
+
+.header__navBar a.navbar-brand {
+  margin-left: 15px;
+}
+
+.header__navBar .home {
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.header__navBar .home:hover {
+  -webkit-transform: scale(2, 2);
+          transform: scale(2, 2);
+}
+
+.header__navBar .shadow-drop-center {
+  -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+hr:not([size]) {
+  height: 8px;
+}
+
+.main__propiedades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__propiedades .card {
+  position: relative;
+  width: 18rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ebd5e2;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+  margin-left: auto;
+}
+
+.main__propiedades .card__img {
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+}
+
+.rutinas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rutinas .card {
+  position: relative;
+  width: 18rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ebd5e2;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+  margin-left: auto;
+}
+
+.btn.btn-primary, .abajoInicio .btn.boton, .listaMeditacion .btn.menuDesplegable {
+  font-family: "Anonymous Pro", monospace;
+  color: #5a0b7e;
+  background-color: #73ecd2;
+  border-color: #73ecd2;
+  font-size: 20px;
+}
+
+.btn-primary:hover, .abajoInicio .boton:hover, .listaMeditacion .menuDesplegable:hover {
+  font-family: "Anonymous Pro", monospace;
+  width: 200px;
+  color: #5a0b7e;
+  background-color: #73ecd2;
+  border-color: #73ecd2;
+}
+
+.abajoInicio {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+}
+
+.abajoInicio .abajo__ultimosPost {
+  margin-left: 10px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  font-family: "Anonymous Pro", monospace;
+  color: #5a0b7e;
+  font-size: 20px;
+  background: #faf27e;
+  width: 300px;
+  height: 30px;
+}
+
+.abajoInicio .comentarios {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  font-family: "Anonymous Pro", monospace;
+  color: #5a0b7e;
+  font-size: 20px;
+  background: #faf27e;
+  width: 300px;
+  height: 30px;
+}
+
+.abajoInicio form {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  font-size: 15px;
+  font-family: "Anonymous Pro", monospace;
+  width: 30rem;
+  color: #5a0b7e;
+}
+
+.abajoInicio .boton div#carouselExampleIndicators.carousel.slide {
+  width: 30rem;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  margin-left: 10px;
+}
+
+.infoSobreMi {
+  display: inline;
+}
+
+.infoSobreMi .sobreMi {
+  font-size: 10px;
+  text-align: left;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 20px;
+  color: #5a0b7e;
+  line-height: 3;
+}
+
+.infoSobreMi .fotoFati {
+  border-radius: 20px;
+  width: 175px;
+  height: 175px;
+  margin: 10px;
+}
+
+.opcionesTurnos {
+  text-align: -webkit-center;
+}
+
+.sacaTurno {
+  font-family: "Anonymous Pro", monospace;
+  color: #5a0b7e;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sacaTurno .turno {
+  margin: 15px;
+}
+
+.sacaTurno .turno:focus {
+  width: 100px;
+  font-size: 20px;
+}
+
+.footer__propiedades h6 {
+  color: #140112;
+  font-size: 8px;
+  text-align: right;
+  font-family: "Press Start 2P", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-right: 20px;
+}
+
+.botonesTienda {
+  text-align: -webkit-center;
+  justify-items: center;
+}
+
+.botonesTienda .btn-group .btn.btn-danger.dropdown-toggle {
+  font-family: "Anonymous Pro", monospace;
+  color: #5a0b7e;
+  background-color: #73ecd2;
+  border-color: #73ecd2;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.universoRecomendados .contenedor {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.universoRecomendados .cadaUno {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.diasDeAtencion {
+  font-family: "Anonymous Pro", monospace;
+  font-size: 20px;
+  color: #5a0b7e;
+  text-align: -webkit-center;
+  margin-bottom: 30px;
+}
+
+.diasDeAtencion .tablaDias {
+  border: solid;
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+
+.diasDeAtencion th {
+  border-width: thin;
+}
+
+.martes {
+  background-color: #ee6b6b;
+}
+
+.viernes {
+  background-color: #ee6b6b;
+}
+
+.domingo {
+  background-color: #ee6b6b;
+}
+
+.lunes {
+  background-color: #95ec95;
+}
+
+.miercoles {
+  background-color: #95ec95;
+}
+
+.jueves {
+  background-color: #95ec95;
+}
+
+.sabado {
+  background-color: #95ec95;
+}
+
+h3.disponibles, h3.noDisponibles {
+  background-color: #95ec95;
+  font-size: 20px;
+  font-family: "Anonymous Pro", monospace;
+  inline-size: -webkit-fit-content;
+  inline-size: -moz-fit-content;
+  inline-size: fit-content;
+  margin-left: 20px;
+}
+
+h3.noDisponibles {
+  background-color: #ee6b6b;
+}
+
+.listaMeditacion {
+  list-style: none;
+}
+
+.listaMeditacion .menuDesplegable {
+  text-decoration: none;
+}
+
+.paginas {
+  background-color: #faf27e;
+  border-radius: 5%;
+}
+
+.indumentaria {
+  background-color: #5a0b7e;
+  border-radius: 5%;
+}
+
+.deco {
+  background-color: #f05651;
+  border-radius: 5%;
+}
+
+.nav-item > .nav-link:hover {
+  background-color: #faf27e !important;
+}
+
+.nav-item > .nav-link.nav-link.active {
+  background-color: #faf27e !important;
+}

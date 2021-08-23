@@ -1,0 +1,339 @@
+$color-titulo: #f05651;
+$color-barra: rgb(90, 11, 126);
+$color-botones:#73ecd2;
+$color-patito:rgb(250, 242, 126);
+$tipografia-general: 'Anonymous Pro', monospace;
+$tipografia-secundaria: 'Press Start 2P', cursive;
+$fontsize-general:20px;
+$color-dia-disponible:rgb(149, 236, 149);
+$color-dia-nodisponible:rgb(238, 107, 107);
+
+#fondoPagina{
+    background: rgb(235,213,226);
+    background: radial-gradient(circle, rgba(235,213,226,1) 0%, rgba(237,199,221,1) 38%, rgba(236,188,247,1) 100%);
+}
+
+.header__navBar{
+    .header__logo{
+        text-align: -webkit-center;
+        .logo{
+            width: 250px;
+            height: 250px;
+            border-radius: 200px;
+        }
+
+        h1.titulo{
+            margin: 30px;
+            color:$color-titulo;
+            font-size:($fontsize-general)+10px;
+            text-align: center;
+            font-family: $tipografia-secundaria;
+        }
+
+       .titulo{
+            border-radius: 50px;
+        }
+
+        h2.subTitulo{
+            color: $color-titulo;
+            font-size:($fontsize-general)-5px;
+            margin: 40px;
+            text-align:center;
+            font-family:$tipografia-secundaria;
+        }
+    }
+
+    .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+        color:$color-barra;
+        font-family: $tipografia-general;
+        font-size: $fontsize-general;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+        background-color: transparent;
+        border-color: transparent;
+        margin-left: 10px;
+    }
+
+    .navbar-light .navbar-brand {
+        color: $color-barra;
+        font-family: $tipografia-general;
+        font-size:$fontsize-general;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: $color-barra;
+        font-family: $tipografia-general;
+        font-size: $fontsize-general;
+    }
+
+    .nav-tabs {
+        border-bottom: none;
+    }
+
+    .collapse.navbar-collapse {
+        justify-content: flex-end
+    }
+
+    ul.nav.nav-tabs{
+        display: inline-block;
+    }
+    a.navbar-brand{
+        margin-left: 15px;
+    }
+    .home{
+        margin-top: 5px;
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    .home:hover{
+        transform: scale(2,2);
+    }
+
+    .shadow-drop-center {
+        -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+}
+
+hr:not([size]) {
+    height: 8px;
+}
+.main__propiedades{
+    display: flex;
+    .card {
+        position: relative;
+        width: 18rem;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color:rgb(235,213,226);
+        background-clip: border-box;
+        border-radius: 0.25rem;
+        margin-left: auto;
+    }
+    .card__img{
+        border-top-left-radius: calc(.25rem - 1px);
+        border-top-right-radius: calc(.25rem - 1px);
+    }
+}
+
+.rutinas{
+    display: flex;
+    .card{
+        position: relative;
+        width: 18rem;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color:rgb(235,213,226);
+        background-clip: border-box;
+        border-radius: 0.25rem;
+        margin-left: auto;
+    }      
+}
+.btn.btn-primary {
+    font-family: $tipografia-general;
+    color: $color-barra;
+    background-color: $color-botones;
+    border-color: $color-botones;
+    font-size: $fontsize-general;
+}
+.btn-primary:hover{
+    font-family: $tipografia-general;
+    width: 200px;
+    color: $color-barra;
+    background-color: $color-botones;
+    border-color: $color-botones;
+}
+
+.abajoInicio{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+
+    .abajo__ultimosPost{
+        margin-left: 10px;
+       grid-column: 1/2;
+       font-family: $tipografia-general;
+       color: $color-barra;
+       font-size: 20px;
+       background:$color-patito;
+       width: 300px;
+       height: 30px;
+    }
+    .comentarios{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        font-family: $tipografia-general;
+        color:$color-barra;
+        font-size: $fontsize-general;
+        background: $color-patito;
+        width: 300px;
+        height: 30px;
+     }
+
+    form{
+        grid-row: 2/3;
+        grid-column: 2/3;
+        font-size:($fontsize-general)-5px;
+        font-family:$tipografia-general;
+        width: 30rem;
+        color:$color-barra;
+    }
+
+    .boton{
+        @extend.btn-primary;
+
+    div#carouselExampleIndicators.carousel.slide{
+        width: 30rem;
+        grid-column: 1/2;
+        margin-left: 10px;
+    }    
+    }
+}
+
+.infoSobreMi{
+    display: inline;
+
+    .sobreMi{
+        font-size: 10px;
+        text-align: left;
+        font-family: $tipografia-general;
+        font-size: $fontsize-general;
+        color: $color-barra;
+        line-height: 3;
+    }
+
+    .fotoFati{
+        border-radius: 20px;
+        width: 175px;
+        height: 175px;
+        margin: 10px;
+    }
+    
+}
+.opcionesTurnos{
+    text-align: -webkit-center;
+}
+.sacaTurno{
+    font-family: $tipografia-general;
+    color: $color-barra;
+    font-size:$fontsize-general;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-items: center;
+        .turno{
+            margin: 15px;
+        }
+        .turno:focus{
+            width: 100px;
+            font-size: $fontsize-general;
+        }
+    }
+
+.footer__propiedades{
+    h6{
+        color: rgb(20, 1, 18);
+        font-size:8px;
+        text-align: right;
+        font-family:$tipografia-secundaria;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        margin-right: 20px;
+    }
+}
+.botonesTienda{
+    text-align: -webkit-center;
+    justify-items: center;
+    .btn-group{
+        .btn.btn-danger.dropdown-toggle{
+        font-family: $tipografia-general;
+        color: $color-barra;
+        background-color: $color-botones;
+        border-color: $color-botones;
+        font-size: $fontsize-general;
+        padding: 20px;
+        }
+    }
+}   
+.universoRecomendados{
+    .contenedor{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+        .cadaUno{
+            margin-bottom: 20px;
+            margin-right: 20px;
+            border-radius: 20px;
+            width: 200px;
+            height: 200px;
+        }
+}
+
+.diasDeAtencion{
+    font-family: $tipografia-general;
+    font-size: $fontsize-general;
+    color: $color-barra;
+    text-align: -webkit-center;
+    margin-bottom: 30px;
+
+    .tablaDias {
+        border: solid;
+        caption-side: bottom;
+        border-collapse: collapse;
+    }
+    th{
+        border-width: thin;
+    }
+}
+
+$diasDisponibles:(martes $color-dia-nodisponible)(viernes $color-dia-nodisponible)(domingo $color-dia-nodisponible)
+(lunes $color-dia-disponible) (miercoles $color-dia-disponible) (jueves $color-dia-disponible) (sabado$color-dia-disponible);
+    @each $dia, $color in $diasDisponibles {
+        .#{$dia}{
+            background-color:$color;
+        }
+}
+
+h3.disponibles{
+    background-color: $color-dia-disponible;
+    font-size: $fontsize-general;
+    font-family: $tipografia-general;
+    inline-size: fit-content;
+    margin-left: 20px;
+}
+h3.noDisponibles{
+    background-color: $color-dia-nodisponible;
+    @extend.disponibles;
+}
+
+.listaMeditacion{
+    list-style: none;
+    .menuDesplegable{
+        @extend.btn-primary;
+        text-decoration: none;
+    }
+}
+
+$listaRecomendados:(paginas,$color-patito) (indumentaria,$color-barra) (deco,$color-titulo);
+    @each $var, $color in $listaRecomendados {
+        .#{$var}{
+            background-color: $color;
+            border-radius: 5%;
+        }
+    }
+
+.nav-item>.nav-link:hover{
+    background-color: $color-patito!important;
+    }
+
+.nav-item>.nav-link.nav-link.active{
+    background-color: $color-patito!important;
+}
