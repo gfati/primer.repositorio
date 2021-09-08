@@ -294,6 +294,7 @@ img.imagenoraculo{
             width: 200px;
             height: 200px;
         }
+    }
 
 .diasDeAtencion{
     font-family: $tipografia-general;
@@ -349,6 +350,5 @@ $listaRecomendados:(paginas,$color-patito) (indumentaria,$color-barra) (deco,$co
     }
 
 .nav-item>.nav-link.nav-link.active{
-    background-color: $color-patito!important;
-}
+    background-color: $color-patito !important;
 }

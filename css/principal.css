@@ -148,7 +148,7 @@ hr:not([size]) {
   border-radius: 0.25rem;
 }
 
-.btn.btn-primary, .universoRecomendados .listaMeditacion .btn.menuDesplegable {
+.btn.btn-primary, .listaMeditacion .btn.menuDesplegable {
   font-family: "Anonymous Pro", monospace;
   color: #5a0b7e;
   background-color: #73ecd2;
@@ -156,7 +156,7 @@ hr:not([size]) {
   font-size: 20px;
 }
 
-.btn-primary:hover, .universoRecomendados .listaMeditacion .menuDesplegable:hover {
+.btn-primary:hover, .listaMeditacion .menuDesplegable:hover {
   font-family: "Anonymous Pro", monospace;
   width: 200px;
   color: #5a0b7e;
@@ -352,7 +352,7 @@ img.imagenoraculo {
   height: 200px;
 }
 
-.universoRecomendados .diasDeAtencion {
+.diasDeAtencion {
   font-family: "Anonymous Pro", monospace;
   font-size: 20px;
   color: #5a0b7e;
@@ -360,45 +360,45 @@ img.imagenoraculo {
   margin-bottom: 30px;
 }
 
-.universoRecomendados .diasDeAtencion .tablaDias {
+.diasDeAtencion .tablaDias {
   border: solid;
   caption-side: bottom;
   border-collapse: collapse;
 }
 
-.universoRecomendados .diasDeAtencion th {
+.diasDeAtencion th {
   border-width: thin;
 }
 
-.universoRecomendados .martes {
+.martes {
   background-color: #ee6b6b;
 }
 
-.universoRecomendados .viernes {
+.viernes {
   background-color: #ee6b6b;
 }
 
-.universoRecomendados .domingo {
+.domingo {
   background-color: #ee6b6b;
 }
 
-.universoRecomendados .lunes {
+.lunes {
   background-color: #95ec95;
 }
 
-.universoRecomendados .miercoles {
+.miercoles {
   background-color: #95ec95;
 }
 
-.universoRecomendados .jueves {
+.jueves {
   background-color: #95ec95;
 }
 
-.universoRecomendados .sabado {
+.sabado {
   background-color: #95ec95;
 }
 
-.universoRecomendados h3.disponibles, .universoRecomendados h3.noDisponibles {
+h3.disponibles, h3.noDisponibles {
   background-color: #95ec95;
   font-size: 20px;
   font-family: "Anonymous Pro", monospace;
@@ -408,33 +408,33 @@ img.imagenoraculo {
   margin-left: 20px;
 }
 
-.universoRecomendados h3.noDisponibles {
+h3.noDisponibles {
   background-color: #ee6b6b;
 }
 
-.universoRecomendados .listaMeditacion {
+.listaMeditacion {
   list-style: none;
 }
 
-.universoRecomendados .listaMeditacion .menuDesplegable {
+.listaMeditacion .menuDesplegable {
   text-decoration: none;
 }
 
-.universoRecomendados .paginas {
+.paginas {
   background-color: #faf27e;
   border-radius: 5%;
 }
 
-.universoRecomendados .indumentaria {
+.indumentaria {
   background-color: #5a0b7e;
   border-radius: 5%;
 }
 
-.universoRecomendados .deco {
+.deco {
   background-color: #f05651;
   border-radius: 5%;
 }
 
-.universoRecomendados .nav-item > .nav-link.nav-link.active {
+.nav-item > .nav-link.nav-link.active {
   background-color: #faf27e !important;
 }
