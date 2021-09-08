@@ -148,7 +148,7 @@ hr:not([size]) {
   border-radius: 0.25rem;
 }
 
-.btn.btn-primary, .listaMeditacion .btn.menuDesplegable {
+.btn.btn-primary, .universoRecomendados .listaMeditacion .btn.menuDesplegable {
   font-family: "Anonymous Pro", monospace;
   color: #5a0b7e;
   background-color: #73ecd2;
@@ -156,7 +156,7 @@ hr:not([size]) {
   font-size: 20px;
 }
 
-.btn-primary:hover, .listaMeditacion .menuDesplegable:hover {
+.btn-primary:hover, .universoRecomendados .listaMeditacion .menuDesplegable:hover {
   font-family: "Anonymous Pro", monospace;
   width: 200px;
   color: #5a0b7e;
@@ -281,6 +281,13 @@ hr:not([size]) {
   font-size: 20px;
 }
 
+.oraculo {
+  font-family: "Anonymous Pro", monospace;
+  color: #5a0b7e;
+  font-size: 20px;
+  text-align: center;
+}
+
 .footer__propiedades h6 {
   color: #140112;
   font-size: 8px;
@@ -335,7 +342,7 @@ hr:not([size]) {
   height: 200px;
 }
 
-.diasDeAtencion {
+.universoRecomendados .diasDeAtencion {
   font-family: "Anonymous Pro", monospace;
   font-size: 20px;
   color: #5a0b7e;
@@ -343,45 +350,45 @@ hr:not([size]) {
   margin-bottom: 30px;
 }
 
-.diasDeAtencion .tablaDias {
+.universoRecomendados .diasDeAtencion .tablaDias {
   border: solid;
   caption-side: bottom;
   border-collapse: collapse;
 }
 
-.diasDeAtencion th {
+.universoRecomendados .diasDeAtencion th {
   border-width: thin;
 }
 
-.martes {
+.universoRecomendados .martes {
   background-color: #ee6b6b;
 }
 
-.viernes {
+.universoRecomendados .viernes {
   background-color: #ee6b6b;
 }
 
-.domingo {
+.universoRecomendados .domingo {
   background-color: #ee6b6b;
 }
 
-.lunes {
+.universoRecomendados .lunes {
   background-color: #95ec95;
 }
 
-.miercoles {
+.universoRecomendados .miercoles {
   background-color: #95ec95;
 }
 
-.jueves {
+.universoRecomendados .jueves {
   background-color: #95ec95;
 }
 
-.sabado {
+.universoRecomendados .sabado {
   background-color: #95ec95;
 }
 
-h3.disponibles, h3.noDisponibles {
+.universoRecomendados h3.disponibles, .universoRecomendados h3.noDisponibles {
   background-color: #95ec95;
   font-size: 20px;
   font-family: "Anonymous Pro", monospace;
@@ -391,37 +398,37 @@ h3.disponibles, h3.noDisponibles {
   margin-left: 20px;
 }
 
-h3.noDisponibles {
+.universoRecomendados h3.noDisponibles {
   background-color: #ee6b6b;
 }
 
-.listaMeditacion {
+.universoRecomendados .listaMeditacion {
   list-style: none;
 }
 
-.listaMeditacion .menuDesplegable {
+.universoRecomendados .listaMeditacion .menuDesplegable {
   text-decoration: none;
 }
 
-.paginas {
+.universoRecomendados .paginas {
   background-color: #faf27e;
   border-radius: 5%;
 }
 
-.indumentaria {
+.universoRecomendados .indumentaria {
   background-color: #5a0b7e;
   border-radius: 5%;
 }
 
-.deco {
+.universoRecomendados .deco {
   background-color: #f05651;
   border-radius: 5%;
 }
 
-.nav-item > .nav-link:hover {
+.universoRecomendados .nav-item > .nav-link:hover {
   background-color: #faf27e !important;
 }
 
-.nav-item > .nav-link.nav-link.active {
+.universoRecomendados .nav-item > .nav-link.nav-link.active {
   background-color: #faf27e !important;
 }

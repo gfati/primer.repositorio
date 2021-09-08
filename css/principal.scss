@@ -239,6 +239,13 @@ hr:not([size]) {
     font-size: $fontsize-general;
     }
 
+.oraculo{
+    font-family: $tipografia-general;
+    color: $color-barra;
+    font-size: $fontsize-general;
+    text-align: center; 
+}
+
 .footer__propiedades{
     h6{
         color: rgb(20, 1, 18);
@@ -279,7 +286,6 @@ hr:not([size]) {
             width: 200px;
             height: 200px;
         }
-}
 
 .diasDeAtencion{
     font-family: $tipografia-general;
@@ -340,4 +346,5 @@ $listaRecomendados:(paginas,$color-patito) (indumentaria,$color-barra) (deco,$co
 
 .nav-item>.nav-link.nav-link.active{
     background-color: $color-patito!important;
+}
 }
