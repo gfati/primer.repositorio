@@ -281,6 +281,11 @@ hr:not([size]) {
   font-size: 20px;
 }
 
+main.img.productosTienda {
+  height: 400px;
+  width: 400px;
+}
+
 .oraculo {
   font-family: "Anonymous Pro", monospace;
   color: #5a0b7e;
