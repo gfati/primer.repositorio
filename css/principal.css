@@ -286,6 +286,13 @@ hr:not([size]) {
   width: 400px;
 }
 
+.catalogo {
+  text-align: center;
+  font-family: "Anonymous Pro", monospace;
+  color: #5a0b7e;
+  font-size: 20px;
+}
+
 .oraculo {
   font-family: "Anonymous Pro", monospace;
   color: #5a0b7e;
@@ -423,21 +430,6 @@ h3.noDisponibles {
 
 .listaMeditacion .menuDesplegable {
   text-decoration: none;
-}
-
-.paginas {
-  background-color: #faf27e;
-  border-radius: 5%;
-}
-
-.indumentaria {
-  background-color: #5a0b7e;
-  border-radius: 5%;
-}
-
-.deco {
-  background-color: #f05651;
-  border-radius: 5%;
 }
 
 .nav-item > .nav-link.nav-link.active {

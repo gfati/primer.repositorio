@@ -243,6 +243,12 @@ hr:not([size]) {
     height: 400px;
     width: 400px;
 }
+.catalogo{
+    text-align: center;
+    font-family: $tipografia-general;
+    color: $color-barra;
+    font-size: $fontsize-general;
+}
 
 .oraculo{
     font-family: $tipografia-general;
@@ -345,15 +351,6 @@ h3.noDisponibles{
         text-decoration: none;
     }
 }
-
-$listaRecomendados:(paginas,$color-patito) (indumentaria,$color-barra) (deco,$color-titulo);
-    @each $var, $color in $listaRecomendados {
-        .#{$var}{
-            background-color: $color;
-            border-radius: 5%;
-        }
-    }
-
 .nav-item>.nav-link.nav-link.active{
     background-color: $color-patito !important;
 }
