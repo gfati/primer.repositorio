@@ -245,6 +245,14 @@ hr:not([size]) {
     font-size: $fontsize-general;
     text-align: center; 
 }
+li.nav-item{
+    list-style: none;
+}
+img.imagenoraculo{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
 
 .footer__propiedades{
     h6{
@@ -338,10 +346,6 @@ $listaRecomendados:(paginas,$color-patito) (indumentaria,$color-barra) (deco,$co
             background-color: $color;
             border-radius: 5%;
         }
-    }
-
-.nav-item>.nav-link:hover{
-    background-color: $color-patito!important;
     }
 
 .nav-item>.nav-link.nav-link.active{

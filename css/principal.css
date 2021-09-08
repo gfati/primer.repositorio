@@ -288,6 +288,16 @@ hr:not([size]) {
   text-align: center;
 }
 
+li.nav-item {
+  list-style: none;
+}
+
+img.imagenoraculo {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+}
+
 .footer__propiedades h6 {
   color: #140112;
   font-size: 8px;
@@ -423,10 +433,6 @@ hr:not([size]) {
 .universoRecomendados .deco {
   background-color: #f05651;
   border-radius: 5%;
-}
-
-.universoRecomendados .nav-item > .nav-link:hover {
-  background-color: #faf27e !important;
 }
 
 .universoRecomendados .nav-item > .nav-link.nav-link.active {
