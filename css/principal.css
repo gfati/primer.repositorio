@@ -281,9 +281,9 @@ hr:not([size]) {
   font-size: 20px;
 }
 
-.productosTienda {
-  height: 400px;
+.productosTienda img {
   width: 400px;
+  height: 400px;
 }
 
 .catalogo {

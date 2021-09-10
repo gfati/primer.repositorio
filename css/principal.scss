@@ -239,9 +239,9 @@ hr:not([size]) {
     font-size: $fontsize-general;
     }
 
-.productosTienda{
-    height: 400px;
-    width: 400px;
+.productosTienda img {
+    width:400px;
+    height:400px;
 }
 .catalogo{
     text-align: center;
