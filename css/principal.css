@@ -284,6 +284,8 @@ hr:not([size]) {
 .productosTienda img {
   width: 400px;
   height: 400px;
+  margin-left: 170px;
+  margin-bottom: 30px;
 }
 
 .catalogo {
